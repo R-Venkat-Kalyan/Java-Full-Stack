@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+<bean id = "empBean" class = "com.JFSD.SpringDemo.Employee">
+
+<constructor-arg value = "30959" type="int"></constructor-arg>
+<constructor-arg value = "kalyan" type="String"></constructor-arg>
+<constructor-arg value = "100000.00" type="double"></constructor-arg>
+
+<!--  <property name = "eId" value = "30959"/>
+<property name = "eName" value = "kalyan"/>
+<property name = "eSal" value = "1200000"/> -->
+</bean> 
+</beans>        
